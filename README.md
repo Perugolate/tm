@@ -9,7 +9,7 @@
 These genes seem to clustered together on scaffold [CAJRHG030000008.1](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?cfg=NCID_1_54628939_130.14.18.128_9146_1665395600_1361713531).
 
 
-![ten4gb](https://github.com/Perugolate/tm/blob/main/CAJRHG030000008.1%5B13496280..13530935%5D.svg)
+![ten4gb](https://github.com/Perugolate/tm/blob/main/CAJRHG030000008.1%5B13496280..13530935%5D.png)
 
 The amino acid sequence from Chae et al does not retrieve an identical amino acid sequence from either genome project. The N-terminal 
 
