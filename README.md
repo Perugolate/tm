@@ -1,33 +1,29 @@
 
 | family        | name            | length protein   |  notes                                                             |
 |---------------|-----------------|------------------|--------------------------------------------------------------------|
-| attacin       | tenecin 4    | 143 aa           | see note below                                                     |
-| attacin       | CAH1377308.1 | 154 aa           | 98% (151/154) attacin-1a, Jo et al. 2018                           |
-| attacin       | CAH1377309.1 | 123 aa           |                                                                    |
-| attacin       | CAH1377310.1 | 154 aa           | 98% (151/154) attacin-1a, Jo et al. 2018                           |
-| attacin       | CAH1377311.1 | 161 aa           |                                                                    |
-| attacin       | CAH1377312.1 | 161 aa           |                                                                    |
-| attacin       | CAH1377313.1 | 161 aa           |                                                                    |
-| attacin       | CAH1370004.1 | 164 aa           | 99% identity (162/164) to attacin-2, jo et al. 1018                |
-| attacin       | attacin 1b   | 150 aa           | doesn't appear to be in the genoscope assembly but identical protein is present in our RNAseq (comp38697_c0). Hits a 191-aa protein in the purdue assembly with 98% identity (118/120) |
-| coleoptericin | CAH1367453.1 | 119 aa           | 98% identity (117/119) with coleoptericin A                        |
-| coleoptericin | CAH1367451.1 | 127 aa           | 98% identity (124/127) with coleoptericin B                        |
-| coleoptericin | CAH1367452.1 | 127 aa           | 98% identity (125/127) with coleoptericin B                        |
-| coleoptericin | CAH1367454.1 | 134 aa (parital start) | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa  |
-| cecropin      | CAH1373192.1 | 96 aa            | identical to cecropin, missing in purdue assembly                  |
-| (tenecin 3)   | CAH1364178.1 | 96 aa            | identical to tenecin 3                                             |
-| defensin      | CAH1375101.1 | 84 aa            | 99% identity (83/84) with tenecin 1
-| defensin      | defensin     | 72 aa | cant find this in either genomes or our RNAseq, in all cases tenecin 1 is the closest hit |
-| defensin-like | CAH1378923.1 | 71 aa            | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
-| thaumatin-like | CAH1379328.1 | 222 aa          | Possibly undescribed thaumatin-like protein but see [below](#cah1379328.1) |
-| thaumatin-like | CAH1373168.1 | 587 aa | See [below](#cah1373168.1) |
-| thaumatin‐like | CAH1373167.1 | 187 aa | Sits right next to the above. Possibly undescribed |
+| attacin       | tenecin 4       | 143 aa           | see note below                                                     |
+| attacin       | CAH1377308.1    | 154 aa           | 98% (151/154) attacin-1a, Jo et al. 2018                           |
+| attacin       | CAH1377309.1    | 123 aa           |                                                                    |
+| attacin       | CAH1377310.1    | 154 aa           | 98% (151/154) attacin-1a, Jo et al. 2018                           |
+| attacin       | CAH1377311.1    | 161 aa           |                                                                    |
+| attacin       | CAH1377312.1    | 161 aa           |                                                                    |
+| attacin       | CAH1377313.1    | 161 aa           |                                                                    |
+| attacin       | CAH1370004.1    | 164 aa           | 99% identity (162/164) to attacin-2, jo et al. 1018                |
+| attacin       | attacin 1b      | 150 aa           | doesn't appear to be in the genoscope assembly but identical protein is present in our RNAseq (comp38697_c0). Hits a 191-aa protein in the purdue assembly with 98% identity (118/120) |
+| coleoptericin | CAH1367453.1    | 119 aa           | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
+| coleoptericin | CAH1367451.1    | 127 aa           | 98% identity (124/127) with coleoptericin B                                    |
+| coleoptericin | CAH1367452.1    | 127 aa           | 98% identity (125/127) with coleoptericin B                                    |
+| coleoptericin | CAH1367454.1    | 134 aa (parital start) | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa        |
+| cecropin      | CAH1373192.1    | 96 aa            | identical to cecropin, missing in purdue assembly                              |
+| (tenecin 3)   | CAH1364178.1    | 96 aa            | identical to tenecin 3                                                         |
+| defensin      | CAH1375101.1    | 84 aa            | 99% identity (83/84) with tenecin 1                                            |
+| defensin      | defensin        | 72 aa | cant find this in either genomes or our RNAseq, in all cases tenecin 1 is the closest hit |
+| defensin-like | CAH1378923.1    | 71 aa            | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
+| thaumatin-like | CAH1379328.1   | 222 aa           | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
+| thaumatin-like | CAH1373168.1   | 587 aa           | See [below](#cah13731681)                                                               |
+| thaumatin‐like | CAH1373167.1   | 187 aa           | Sits right next to the above. Possibly undescribed.                                     |
 
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. KAHXXXXXXX.X refer to the purdue assembly.
-
-# coleoptericins
-
-The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct. Tenecin 2 seems to CAH1367451.1 and/or CAH1367452.1. Note that the tenecin 2 sequence was never depositied anywhere, as far as I know.
 
 # Tenecin 4/attacins
 
@@ -132,6 +128,10 @@ CAH1377308.1      DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGR--F
 CAH1377310.1      DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGR--F
                   :     **. :*..*:.  . *:* *. .: *   *
 ```
+
+# coleoptericins
+
+The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct. Tenecin 2 seems to CAH1367451.1 and/or CAH1367452.1. Note that the tenecin 2 sequence was never depositied anywhere, as far as I know.
 
 # thaumatin
 
