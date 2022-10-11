@@ -35,10 +35,10 @@
 | thaumatin-like | CAH1373168.1   | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#cah13731681)                                                               |
 | thaumatin‐like | CAH1373167.1   | 187 aa                 | comp140556_c0 | Sits right next to the above. Possibly undescribed.                                     |
 
-protein names CAHXXXXXXX.X refer to the Genoscope assembly. 
-KAHXXXXXXX.X refer to the purdue assembly.
-compXXXXXX_cX refer to transcript sequences assembled from our RNAseq.
-m.XXX refer to proteins predicted from the assembled transcripts.
+protein names CAHXXXXXXX.X refer to the Genoscope assembly. <br/>
+KAHXXXXXXX.X refer to the purdue assembly. <br/>
+compXXXXXX_cX refer to transcript sequences assembled from our RNAseq. <br/>
+m.XXX refer to proteins predicted from the assembled transcripts. <br/>
 
 # attacins/tenecin 4
 
