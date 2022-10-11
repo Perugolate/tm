@@ -9,18 +9,18 @@
 | attacin       | CAH1377313.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4)                                                                   |
 | attacin       | CAH1370004.1    | 164 aa                 | comp38945_c1 m.23374 | 99% identity (162/164) with attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
 | attacin       | attacin 1b      | 150 aa                 | comp38697_c0 m.22078 | See [below](#attacin-1b) |
-| coleoptericin | CAH1367453.1    | 119 aa                 |  | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
-| coleoptericin | CAH1367451.1    | 127 aa                 |  | 98% identity (124/127) with coleoptericin B                                    |
-| coleoptericin | CAH1367452.1    | 127 aa                 |  | 98% identity (125/127) with coleoptericin B                                    |
-| coleoptericin | CAH1367454.1    | 134 aa (partial start) |  | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa        |
-| cecropin      | CAH1373192.1    | 96 aa                  |  | identical to cecropin, missing in purdue assembly                              |
-| (tenecin 3)   | CAH1364178.1    | 96 aa                  |  | identical to tenecin 3                                                         |
-| defensin      | CAH1375101.1    | 84 aa                  |  | 99% identity (83/84) with tenecin 1                                            |
-| defensin      | defensin        | 72 aa                  | cant find   |this in either genomes or our RNAseq, in all cases tenecin 1 is the closest hit |
-| defensin-like | CAH1378923.1    | 71 aa                  |  | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
-| thaumatin-like | CAH1379328.1   | 222 aa                 |  | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
-| thaumatin-like | CAH1373168.1   | 587 aa                 |  | See [below](#cah13731681)                                                               |
-| thaumatin‐like | CAH1373167.1   | 187 aa                 |  | Sits right next to the above. Possibly undescribed.                                     |
+| coleoptericin | CAH1367453.1    | 119 aa                 | comp40251_c0 m.33071 | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
+| coleoptericin | CAH1367451.1    | 127 aa                 | comp42114_c0 m.56211 | 98% identity (124/127) with coleoptericin B                                    |
+| coleoptericin | CAH1367452.1    | 127 aa                 | comp42114_c0 m.56211 | 98% identity (125/127) with coleoptericin B                                    |
+| coleoptericin | CAH1367454.1    | 134 aa (partial start) | comp39661_c0 m.28138 | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa        |
+| cecropin      | CAH1373192.1    | 96 aa                  | comp41995_c0 m.54728 | identical to cecropin, missing in purdue assembly                              |
+| (tenecin 3)   | CAH1364178.1    | 96 aa                  | comp39311_c1 m.25826 | identical to tenecin 3                                                         |
+| defensin      | CAH1375101.1    | 84 aa                  | comp40599_c0 | 99% identity (83/84) with tenecin 1                                            |
+| defensin      | defensin        | 72 aa                  |              | missing in genomes and our RNAseq. In all cases tenecin 1 is the closest hit |
+| defensin-like | CAH1378923.1    | 71 aa                  | comp44757_c0 | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
+| thaumatin-like | CAH1379328.1   | 222 aa                 | comp35996_c0 | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
+| thaumatin-like | CAH1373168.1   | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#cah13731681)                                                               |
+| thaumatin‐like | CAH1373167.1   | 187 aa                 | comp140556_c0 | Sits right next to the above. Possibly undescribed.                                     |
 
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. KAHXXXXXXX.X refer to the purdue assembly.
 
