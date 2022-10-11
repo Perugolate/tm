@@ -8,7 +8,7 @@
 | attacin       | CAH1377312.1    | 161 aa           | comp44607_c0 | See [below](#tenecin-4)                                                                   |
 | attacin       | CAH1377313.1    | 161 aa           | comp44607_c0 | See [below](#tenecin-4)                                                                   |
 | attacin       | CAH1370004.1    | 164 aa           | comp38945_c1 m.23374 | 99% identity (162/164) to attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
-| attacin       | attacin 1b      | 150 aa           | comp38697_c0 m.22078 | See [below](#attacin1b) |
+| attacin       | attacin 1b      | 150 aa           | comp38697_c0 m.22078 | See [below](#attacin-1b) |
 | coleoptericin | CAH1367453.1    | 119 aa           |  | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
 | coleoptericin | CAH1367451.1    | 127 aa           |  | 98% identity (124/127) with coleoptericin B                                    |
 | coleoptericin | CAH1367452.1    | 127 aa           |  | 98% identity (125/127) with coleoptericin B                                    |
@@ -176,5 +176,7 @@ CAH1373168.1      YVITF (truncated)
 # References
 
 Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like protein (TmTLP) genes from Tenebrio molitor. Entomological Research. 2016 Nov;46(6):354-9.
+
 Kim DH, Noh MY, Park KB, Jo YH. Expression profiles of two thaumatin‐like protein (TmTLP) genes in responses to various micro‐organisms from Tenebrio molitor. Entomological Research. 2017 Jan;47(1):35-40.
+
 Jo YH, Park S, Park KB, Noh MY, Cho JH, Ko HJ, Kim CE, Patnaik BB, Kim J, Won R, Bang IS. In silico identification, characterization and expression analysis of attacin gene family in response to bacterial and fungal pathogens in Tenebrio molitor. Entomological research. 2018 Jan;48(1):45-54.
