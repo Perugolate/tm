@@ -9,7 +9,7 @@
 | attacin       | CAH1377312.1    | 161 aa           |                                                                    |
 | attacin       | CAH1377313.1    | 161 aa           |                                                                    |
 | attacin       | CAH1370004.1    | 164 aa           | 99% identity (162/164) to attacin-2, jo et al. 1018                |
-| attacin       | attacin 1b      | 150 aa           | doesn't appear to be in the genome assembly but identical protein is present in our RNAseq (comp38697_c0). Hits a 191-aa protein in the purdue assembly with 98% identity (118/120) |
+| attacin       | attacin 1b      | 150 aa           | doesn't appear to be in the genoscope assembly but identical protein is present in our RNAseq (comp38697_c0). Hits a 191-aa protein in the purdue assembly with 98% identity (118/120) |
 | coleoptericin | CAH1367453.1    | 119 aa           | 98% identity (117/119) with coleoptericin A                        |
 | coleoptericin | CAH1367451.1    | 127 aa           | 98% identity (124/127) with coleoptericin B                        |
 | coleoptericin | CAH1367452.1    | 127 aa           | 98% identity (125/127) with coleoptericin B                        |
