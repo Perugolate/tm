@@ -19,43 +19,11 @@
 | defensin      | CAH1375101.1 | 84 aa            | 99% identity (83/84) with tenecin 1
 | defensin      | defensin     | 72 aa | cant find this in either genomes or our RNAseq, in all cases tenecin 1 is the closest hit |
 | defensin-like | CAH1378923.1 | 71 aa            | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
-| thaumatin-like | CAH1379328.1 | 222 aa          | Possibly undescribed thaumatin-like protein but see [below](#thaumatin) |
-| thaumatin-like | CAH1373168.1 | 587 aa | See [below](#thaumatin) |
+| thaumatin-like | CAH1379328.1 | 222 aa          | Possibly undescribed thaumatin-like protein but see [below](#cah1379328.1) |
+| thaumatin-like | CAH1373168.1 | 587 aa | See [below](#cah1373168.1) |
 | thaumatin‐like | CAH1373167.1 | 187 aa | Sits right next to the above. Possibly undescribed |
 
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. KAHXXXXXXX.X refer to the purdue assembly.
-
-# thaumatin
-
-The two thaumatin-like proteins described by Noh et al. 2016 and Kim et al. 2017 seem to be present as parts of a single protein in both assemblies. The sizes differ - 587 aa in genoscope CAH1373168.1, and 647 aa in purdue KAH0809363.1. In both assemblies TmTLP2 seems to be the N-terminus (but with some differences, see alignment), with TmTLP1 at the C-terminus. The difference in length between CAH1373168.1 and KAH0809363.1 seems to be to do with the sequence between the tmTLPs but to be honest I don't know what is going on there. So far I couldn't find any transcripts in the RNAseq that support tmTLP1 and tmTLP2 as a single gene.
-
-There is also a second thaumatin‐like protein CAH1373167.1 encoded right next to this strange giant thaumatin too.
-
-When trying to find the Korean thaumatin sequences (couldn't find them in any databases so transcribed them from a figure in the paper) I came accross a 222-aa protein (KAH0809933.1) with a "Thaumatin family" Pfam annotation in the Purdue assembly, which was the only occurence of "thaumatin" in any *T. molitor* GenPept record. The Genoscope version has no Pfam annotation but they both retrieve hits against other thaumatin‐like proteins of insects. 
-
-Other than the two thaumatin‐like proteins described by Noh et al. 2016, I don't know if any of these other two have been described. At least they haven't been submitted to ncbi, so perhaps not.
-
-```
-tmTLP2            MFAFVTLFALLAAAQAVEFEVINNEGGPVWLGVLGNPGHTNLNNGGVILNQGQSVTLQAE
-CAH1373168.1      MFAFVTLFALLAAAQAVEFEVINNEGGPVWLGVLGNPGHTNLNNGGVILNQGQSVTLQAE
-                  ************************************************************
-
-tmTLP2            EDWAGRFWPRTWCNPDTNHCDTGDCGNVLECNGAGGVPPGVSGRDHPQRLGQPRLLRYFP
-CAH1373168.1      EDWAGRFWPRTWCNPDTNHCDTGDCGNVLECNGAGGVPPVSLAEITLKGWGN---LDYYD
-                  ***************************************   .    :  *:   * *: 
-
-tmTLP2            WWTVTISGYLWSRLMDKVT----GSEYSCRKCECAVNLLDSCPQELKVTNGEGAVVACNS
-CAH1373168.1      --ISLVDGYNIRISLEPINGQGDGSEYSCRKCECAVNLLDSCPQELKVTNGEGAVVACNS
-                       :.**     :: :.    *************************************
-
-tmTLP2            ACGAFNTDEYCCRGDHGTPETCKSSDWPVDYPAFFKQNCPDAYSYAYDDHKSTFTCQAEK
-CAH1373168.1      ACGAFNTDEYCCRGDHGTPETCKSSDWPVDYPAFFKQNCPDAYSYAYDDHKSTFTCQAEK
-                  ************************************************************
-
-tmTLP2            YVITF-------------------------------------------------------
-CAH1373168.1      YVITF (truncated)
-                  *****          
-```
 
 # coleoptericins
 
@@ -163,6 +131,42 @@ Tenecin 4         NGPFHADVSGKYDRTYGG-ASSNPSFSTHLTGTVDF
 CAH1377308.1      DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGR--F
 CAH1377310.1      DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGR--F
                   :     **. :*..*:.  . *:* *. .: *   *
+```
+
+# thaumatin
+
+## CAH1373168.1
+
+The two thaumatin-like proteins described by Noh et al. 2016 and Kim et al. 2017 seem to be present as parts of a single protein in both assemblies. The sizes differ - 587 aa in genoscope CAH1373168.1, and 647 aa in purdue KAH0809363.1. In both assemblies TmTLP2 seems to be the N-terminus (but with some differences, see alignment), with TmTLP1 at the C-terminus. The difference in length between CAH1373168.1 and KAH0809363.1 seems to be to do with the sequence between the tmTLPs but to be honest I don't know what is going on there. So far I couldn't find any transcripts in the RNAseq that support tmTLP1 and tmTLP2 as a single gene.
+
+There is also a second thaumatin‐like protein CAH1373167.1 encoded right next to this strange giant thaumatin too.
+
+## CAH1379328.1
+
+When trying to find the Korean thaumatin sequences (couldn't find them in any databases so transcribed them from a figure in the paper) I came accross a 222-aa protein (KAH0809933.1) with a "Thaumatin family" Pfam annotation in the Purdue assembly, which was the only occurence of "thaumatin" in any *T. molitor* GenPept record. The Genoscope version has no Pfam annotation but they both retrieve hits against other thaumatin‐like proteins of insects. 
+
+Other than the two thaumatin‐like proteins described by Noh et al. 2016, I don't know if any of these other two have been described. At least they haven't been submitted to ncbi, so perhaps not.
+
+```
+tmTLP2            MFAFVTLFALLAAAQAVEFEVINNEGGPVWLGVLGNPGHTNLNNGGVILNQGQSVTLQAE
+CAH1373168.1      MFAFVTLFALLAAAQAVEFEVINNEGGPVWLGVLGNPGHTNLNNGGVILNQGQSVTLQAE
+                  ************************************************************
+
+tmTLP2            EDWAGRFWPRTWCNPDTNHCDTGDCGNVLECNGAGGVPPGVSGRDHPQRLGQPRLLRYFP
+CAH1373168.1      EDWAGRFWPRTWCNPDTNHCDTGDCGNVLECNGAGGVPPVSLAEITLKGWGN---LDYYD
+                  ***************************************   .    :  *:   * *: 
+
+tmTLP2            WWTVTISGYLWSRLMDKVT----GSEYSCRKCECAVNLLDSCPQELKVTNGEGAVVACNS
+CAH1373168.1      --ISLVDGYNIRISLEPINGQGDGSEYSCRKCECAVNLLDSCPQELKVTNGEGAVVACNS
+                       :.**     :: :.    *************************************
+
+tmTLP2            ACGAFNTDEYCCRGDHGTPETCKSSDWPVDYPAFFKQNCPDAYSYAYDDHKSTFTCQAEK
+CAH1373168.1      ACGAFNTDEYCCRGDHGTPETCKSSDWPVDYPAFFKQNCPDAYSYAYDDHKSTFTCQAEK
+                  ************************************************************
+
+tmTLP2            YVITF-------------------------------------------------------
+CAH1373168.1      YVITF (truncated)
+                  *****          
 ```
 
 # References
