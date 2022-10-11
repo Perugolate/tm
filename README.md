@@ -1,13 +1,13 @@
 # Contents
 - [Table 1. AMPs in *Tenebrio molitor*](#table-1-amps-in-tenebrio-molitor)
 - [attacins/tenecin 4](#attacinstenecin-4)
- - [CAH1377308.1/CAH1377310.1/Attacin 1a](#cah13773081cah13773101attacin-1a)
- - [tenecin 4](#tenecin-4)
- - [attacin 1b](#attacin-1b)
+  - [CAH1377308.1/CAH1377310.1/Attacin 1a](#cah13773081cah13773101attacin-1a)
+  - [tenecin 4](#tenecin-4)
+  - [attacin 1b](#attacin-1b)
 - [coleoptericins](#coleoptericins)
 - [thaumatin](#thaumatin)
- - [CAH1373168.1](#cah13731681)
- - [CAH1379328.1](#cah13793281)
+  - [CAH1373168.1](#cah13731681)
+  - [CAH1379328.1](#cah13793281)
 - [References](#references)
 
 # Table 1. AMPs in *Tenebrio molitor*.
