@@ -2,11 +2,11 @@
 | family        | name            | length protein   | 2014 RNAseq | notes                                                             |
 |---------------|-----------------|------------------|------------|--------------------------------------------------------|
 | attacin       | CAH1377308.1    | 154 aa           | comp42299_c0 | 98% (151/154) attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377309.1    | 123 aa           | comp44607_c0 | See [below](#tenecin4)                                                                   |
+| attacin       | CAH1377309.1    | 123 aa           | comp44607_c0 | See [below](#tenecin-4)                                                                   |
 | attacin       | CAH1377310.1    | 154 aa           | comp42299_c0 | 98% (151/154) attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377311.1    | 161 aa           | comp44607_c0 | See [below](#tenecin4)                                                                   |
-| attacin       | CAH1377312.1    | 161 aa           | comp44607_c0 | See [below](#tenecin4)                                                                   |
-| attacin       | CAH1377313.1    | 161 aa           | comp44607_c0 | See [below](#tenecin4)                                                                   |
+| attacin       | CAH1377311.1    | 161 aa           | comp44607_c0 | See [below](#tenecin-4)                                                                   |
+| attacin       | CAH1377312.1    | 161 aa           | comp44607_c0 | See [below](#tenecin-4)                                                                   |
+| attacin       | CAH1377313.1    | 161 aa           | comp44607_c0 | See [below](#tenecin-4)                                                                   |
 | attacin       | CAH1370004.1    | 164 aa           | comp38945_c1 m.23374 | 99% identity (162/164) to attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
 | attacin       | attacin 1b      | 150 aa           | comp38697_c0 m.22078 | See [below](#attacin1b) |
 | coleoptericin | CAH1367453.1    | 119 aa           |  | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
@@ -24,7 +24,7 @@
 
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. KAHXXXXXXX.X refer to the purdue assembly.
 
-# Tenecin 4/attacins
+# attacins/tenecin 4
 
 ## CAH1377308.1/CAH1377310.1/Attacin 1a
 Note that CAH1377308.1 and CAH1377310.1 are both 98% identical to Attacin 1a, but they are not identical to each other:
