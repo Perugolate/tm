@@ -1,15 +1,26 @@
 
-| family   | name         | length protein |  notes                              | published sequence | transciptome |
-|----------|--------------|----------------|---------------------|--------------|
-| attacin? | tenecin 4    | 143 aa         |
-| attacin? | CAH1377308.1 | 154 aa         | 98% (151/154) attacin-1a, Jo et al. 2018
-| attacin? | CAH1377309.1 | 123 aa         | 
-| attacin? | CAH1377310.1 | 154 aa         | 98% (151/154) attacin-1a, Jo et al. 2018
-| attacin? | CAH1377311.1 | 161 aa         | 
-| attacin? | CAH1377312.1 | 161 aa         | 
-| attacin? | CAH1377313.1 | 161 aa         | 
-| attacin? | CAH1370004.1 | 164 aa         | 99% identity (162/164) to attacin-2, jo et al. 1018 |
+| family        | name            | length protein   |  notes                                                             |
+|---------------|-----------------|------------------|--------------------------------------------------------------------|
+| attacin       | tenecin 4       | 143 aa           | see note below                                                     |
+| attacin       | CAH1377308.1    | 154 aa           | 98% (151/154) attacin-1a, Jo et al. 2018                           |
+| attacin       | CAH1377309.1    | 123 aa           |                                                                    |
+| attacin       | CAH1377310.1    | 154 aa           | 98% (151/154) attacin-1a, Jo et al. 2018                           |
+| attacin       | CAH1377311.1    | 161 aa           |                                                                    |
+| attacin       | CAH1377312.1    | 161 aa           |                                                                    |
+| attacin       | CAH1377313.1    | 161 aa           |                                                                    |
+| attacin       | CAH1370004.1    | 164 aa           | 99% identity (162/164) to attacin-2, jo et al. 1018                |
+| attacin       | attacin 1b      | 150 aa           | doesn't appear to be in the genome assembly but identical protein is present in our RNAseq (comp38697_c0) |
+| coleoptericin | CAH1367453.1    | 119 aa           | 98% identity (117/119) to coleoptericin A                          |
+| coleoptericin | CAH1367451.1    | 127 aa           | 98% (124/127) to coleoptericin B                                   |
+| coleoptericin | CAH1367452.1    | 127 aa           | 98% (125/127) to coleoptericin B                                   |
+| coleoptericin | CAH1367454.1    | 134 aa (parital start) | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa  |
+| cecropin      | CAH1373192.1    | 96 aa            | identical to cecropin                                              |
 
+protein names CAHXXXXXXX.X refer to the Genoscope assembly. KAHXXXXXXX.X refer to the purdue assembly.
+
+# coleoptericins
+
+The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct.
 
 # Tenecin 4/attacins
 
@@ -33,7 +44,7 @@ Attacin-1a        DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGRF
                   **********************************
 ```
 
-They are conserved at the nucleotide-level, so chances are that the knockdowns and qPCR do not distinguish the two:
+They are conserved at the nucleotide-level, so chances are that the knockdowns and qPCR cover both genes:
 
 ```
 lcl|CAJRHG030000008.1_cds_CAH137      ATGCAGAAACAACTCATTGTCTCAATTCTCGTATTCACCTCTTTGGCGTTTGCCACGGCG
