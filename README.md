@@ -222,6 +222,14 @@ mkdir -p results/star
 --outSAMattributes Standard
 ```
 
+```sh
+samtools sort -l 9 -m 2G -o allAligned.sorted.out.bam -@ 80 allAligned.out.bam
+```
+
+```sh
+igvtools count -z 5 -w 25 -e 250 allAligned.sorted.out.bam  allAligned.sorted.out.tdf  ../../GCA_907166875.3_Tenebrio_molitor_v3_genomic.fna
+```
+
 # References
 
 Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like protein (TmTLP) genes from Tenebrio molitor. Entomological Research. 2016 Nov;46(6):354-9.
