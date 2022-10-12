@@ -5,6 +5,7 @@
   - [tenecin 4](#tenecin-4)
   - [attacin 1b](#attacin-1b)
 - [coleoptericins](#coleoptericins)
+  - [coverage of coleoptercins in genoscope assembly](#coverage-of-coleoptercins-in-genoscope-assembly)
 - [thaumatin](#thaumatin)
   - [CAH1373168.1](#cah13731681)
   - [CAH1379328.1](#cah13793281)
@@ -155,6 +156,7 @@ This is missing from the genoscope assembly. There is a 191-aa protein in the pu
 
 The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct but from our RNAseq data (see figure below) I think it looks like three separate transcripts rather than a giant one. There is some linkage of reads between the genes but I think this is probably because they are so similar. Tenecin 2 seems to CAH1367451.1 and/or CAH1367452.1. Note that the tenecin 2 sequence was never depositied anywhere, as far as I know.
 
+## coverage of coleoptercins in genoscope assembly
 
 ![coleoptericins](https://github.com/Perugolate/tm/blob/main/20221012_coleoptericins.jpg)
 
