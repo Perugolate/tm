@@ -189,6 +189,21 @@ CAH1373168.1      YVITF (truncated)
                   *****          
 ```
 
+# RNAseq validation
+
+## alignment
+
+```sh
+mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx/
+/srv/public/shared/software/src/STAR-2.6.0a/bin/Linux_x86_64/STAR --runThreadN 6 \
+--runMode genomeGenerate \
+--genomeDir  /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx \
+--genomeFastaFiles /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/GCA_907166875.3_Tenebrio_molitor_v3_genomic.fna \
+--sjdbGTFfile /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/genomic.gff \
+--sjdbGTFtagExonParentTranscript Parent \
+--sjdbOverhang 99
+```
+
 # References
 
 Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like protein (TmTLP) genes from Tenebrio molitor. Entomological Research. 2016 Nov;46(6):354-9.
