@@ -168,6 +168,10 @@ The two thaumatin-like proteins described by Noh et al. 2016 and Kim et al. 2017
 
 There is also a second thaumatin‐like protein CAH1373167.1 encoded right next to this strange giant thaumatin too.
 
+Our data supports Noh et al. 2016 description of 2 separate genes/transcripts. There is only coverage of the region encoding the c-terminal portion, which corresponds to TmTLP1. There is no coverage at all for the N-terminus (TmTLP2).
+
+![thaumatins](https://github.com/Perugolate/tm/blob/main/20221012_thaumatin.jpg)
+
 ## CAH1379328.1
 
 When trying to find the Korean thaumatin sequences (couldn't find them in any databases so transcribed them from a figure in the paper) I came accross a 222-aa protein (KAH0809933.1) with a "Thaumatin family" Pfam annotation in the Purdue assembly, which was the only occurence of "thaumatin" in any *T. molitor* GenPept record. The Genoscope version has no Pfam annotation but they both retrieve hits against other thaumatin‐like proteins of insects. 
