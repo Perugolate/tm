@@ -35,7 +35,7 @@
 | defensin      | defensin        | 72 aa                  |              | missing in genomes and our RNAseq. In all cases tenecin 1 is the closest hit |
 | defensin-like | CAH1378923.1    | 71 aa                  | comp44757_c0 | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
 | thaumatin-like | CAH1379328.1   | 222 aa                 | comp35996_c0 | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
-| thaumatin-like | CAH1373168.1   | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#cah13731681)                                                               |
+| thaumatin-like | CAH1373168.1   | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#coverage-of-thaumatins-in-genoscope-assembly)                                                               |
 | thaumatin‐like | CAH1373167.1   | 187 aa                 | comp140556_c0 | Sits right next to the above. Possibly undescribed.                                     |
 
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. <br/>
