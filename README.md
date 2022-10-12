@@ -153,7 +153,10 @@ This is missing from the genoscope assembly. There is a 191-aa protein in the pu
 
 # coleoptericins
 
-The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct. Tenecin 2 seems to CAH1367451.1 and/or CAH1367452.1. Note that the tenecin 2 sequence was never depositied anywhere, as far as I know.
+The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct but from our RNAseq data (see figure below) I think it looks like three separate transcripts rather than a giant one. There is some linkage of reads between the genes but I think this is probably because they are so similar. Tenecin 2 seems to CAH1367451.1 and/or CAH1367452.1. Note that the tenecin 2 sequence was never depositied anywhere, as far as I know.
+
+
+![coleoptericins](https://github.com/Perugolate/tm/blob/main/20221012_coleoptericins.jpg)
 
 # thaumatin
 
@@ -197,7 +200,7 @@ CAH1373168.1      YVITF (truncated)
 
 Need to use the genome instead of the transcripts. 
 
-```sh
+```bash
 mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx/
 /srv/public/shared/software/src/STAR-2.6.0a/bin/Linux_x86_64/STAR --runThreadN 6 \
 --runMode genomeGenerate \
@@ -210,7 +213,7 @@ mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx
 
 Had to specify `Unsorted` otherwise `STAR` segfaults on the sorting step. Will sort it directly with `samtools`.
 
-```sh
+```bash
 mkdir -p results/star
 # note the threads
 /srv/public/shared/software/src/STAR-2.6.0a/bin/Linux_x86_64/STAR --runThreadN 80 \
@@ -222,11 +225,11 @@ mkdir -p results/star
 --outSAMattributes Standard
 ```
 
-```sh
+```bash
 samtools sort -l 9 -m 2G -o allAligned.sorted.out.bam -@ 80 allAligned.out.bam
 ```
 
-```sh
+```bash
 igvtools count -z 5 -w 25 -e 250 allAligned.sorted.out.bam  allAligned.sorted.out.tdf  ../../GCA_907166875.3_Tenebrio_molitor_v3_genomic.fna
 ```
 
