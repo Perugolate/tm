@@ -193,6 +193,8 @@ CAH1373168.1      YVITF (truncated)
 
 ## alignment
 
+Need to use the genome instead of the transcripts. 
+
 ```sh
 mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx/
 /srv/public/shared/software/src/STAR-2.6.0a/bin/Linux_x86_64/STAR --runThreadN 6 \
@@ -202,6 +204,20 @@ mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx
 --sjdbGTFfile /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/genomic.gff \
 --sjdbGTFtagExonParentTranscript Parent \
 --sjdbOverhang 99
+```
+
+Had to specify `Unsorted` otherwise `STAR` segfaults on the sorting step. Will sort it directly with `samtools`.
+
+```sh
+mkdir -p results/star
+# note the threads
+/srv/public/shared/software/src/STAR-2.6.0a/bin/Linux_x86_64/STAR --runThreadN 80 \
+--genomeDir  /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx \
+--readFilesIn /srv/public/users/paul/20221007_tm/all.fastq \
+--outFileNamePrefix results/star/all \
+--outSAMtype BAM Unsorted \
+--outSAMunmapped Within \
+--outSAMattributes Standard
 ```
 
 # References
