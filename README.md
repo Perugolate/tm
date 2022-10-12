@@ -7,7 +7,7 @@
 - [coleoptericins](#coleoptericins)
   - [coverage of coleoptercins in genoscope assembly](#coverage-of-coleoptercins-in-genoscope-assembly)
 - [thaumatin](#thaumatin)
-  - [CAH1373168.1](#cah13731681)
+  - [coverage of thaumatins in genoscope assembly](#coverage-of-thaumatins-in-genoscope-assembly)
   - [CAH1379328.1](#cah13793281)
 - [RNAseq validation](#rnaseq-validation)
   - [alignment](#alignment)
@@ -162,15 +162,15 @@ The coleoptericins are also clustered together. In the Genoscope assembly, there
 
 # thaumatin
 
-## CAH1373168.1
+## coverage of thaumatins in genoscope assembly
 
-The two thaumatin-like proteins described by Noh et al. 2016 and Kim et al. 2017 seem to be present as parts of a single protein in both assemblies. The sizes differ - 587 aa in genoscope CAH1373168.1, and 647 aa in purdue KAH0809363.1. In both assemblies TmTLP2 seems to be the N-terminus (but with some differences, see alignment), with TmTLP1 at the C-terminus. The difference in length between CAH1373168.1 and KAH0809363.1 seems to be to do with the sequence between the tmTLPs but to be honest I don't know what is going on there. So far I couldn't find any transcripts in the RNAseq that support tmTLP1 and tmTLP2 as a single gene.
-
-There is also a second thaumatin‐like protein CAH1373167.1 encoded right next to this strange giant thaumatin too.
-
-Our data supports Noh et al. 2016 description of 2 separate genes/transcripts. There is only coverage of the region encoding the c-terminal portion, which corresponds to TmTLP1. There is no coverage at all for the N-terminus (TmTLP2).
+The two thaumatin-like proteins described by Noh et al. 2016 and Kim et al. 2017 seem to be present as parts of a single protein in both assemblies. The sizes differ - 587 aa in genoscope CAH1373168.1, and 647 aa in purdue KAH0809363.1. In both assemblies TmTLP2 seems to be the N-terminus (but with some differences, see alignment), with TmTLP1 at the C-terminus. The difference in length between CAH1373168.1 and KAH0809363.1 seems to be to do with the sequence between the tmTLPs but to be honest I don't know what is going on there. So far I couldn't find any transcripts in the RNAseq that support tmTLP1 and tmTLP2 as a single gene. Alignment of our RNAseq to the genoscope assembly supports the Noh et al. 2016 description of 2 separate genes/transcripts. There is only coverage of the region encoding the c-terminal portion, which corresponds to TmTLP1. There is no coverage at all for the N-terminus (TmTLP2).
 
 ![thaumatins](https://github.com/Perugolate/tm/blob/main/20221012_thaumatin.jpg)
+
+Green shows the region corresponding to TmTLP1, red shows TmTLP2. No support for a single transcript encoding both proteins.
+
+There is also a second thaumatin‐like protein CAH1373167.1 encoded right next to this strange giant thaumatin too.
 
 ## CAH1379328.1
 
