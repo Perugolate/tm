@@ -8,6 +8,8 @@
 - [thaumatin](#thaumatin)
   - [CAH1373168.1](#cah13731681)
   - [CAH1379328.1](#cah13793281)
+- [RNAseq validation](#rnaseq-validation)
+  - [alignment](#alignment)
 - [References](#references)
 
 # Table 1. AMPs in *Tenebrio molitor*.
