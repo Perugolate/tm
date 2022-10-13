@@ -156,6 +156,32 @@ lcl|CAJRHG030000008.1_cds_CAH137      AGAAGCGAACCTTTCTTTGGTGGCTTTGTCAGAGGAAGATTT
 
 This is missing from the genoscope assembly. There is a 191-aa protein in the purdue assembly with 98% identity (118/120). As far as I can tell, we were the first to describe it in 2014, where we called it attacin 2. Jo et al. 2018 describe it as attacin 1b. Our RNAseq agrees with Jo et al. on the length of 150 aa.
 
+The cds of the purdue gene does not retrieve a decent hit in the genoscope assembly. In fact the purdue contig that contains this gene is very small at around 9kb. Could find about half of the contig in the genoscope assembly but not the gene. I'm assuming that this attacin is in a difficult region. 
+
+The N-terminal end of the purdue version is different to the sequence of the korean attacin 1b and our predicted protein from the RNAseq. I think the purdue version is probably not complete:
+
+```
+attacin                   -------MNMQTVYIIALCCLASALARPGNTKPEDQSQTK--------------------
+comp38697_c0_m.22078      -------MNMQTVYIIALCCLASALARPGNTKPEDQSQTK--------------------
+KAH0813379.1              MLELATDSDSGDRLATANRCLEGPLMVDINARLKKKTQTKLQGDKSGERALYYKLPLIEV
+                                  :       *  ** ..*    *:. :.::***                    
+
+attacin                   --------------WGVRDGVLNVEHHGNLYKNDNHRFDGTASVTKNFVDNKDPLLVGGR
+comp38697_c0_m.22078      --------------WGVRDGVLNVEHHGNLYKNDNHRFDGTASVTKNFVDNKDPLLVGGR
+KAH0813379.1              RLQFFVLSHSRQTKWGVRDGVLNVEHHGNIYKNDNHRFDGTASVTKNFVDNKDPLLVGGR
+                                        ***************:******************************
+
+attacin                   VDYKHLPSNSAIGLGAVNAGQFGTKVDLEASRTLFKDRFSQFDAGVSYGQRFGGPFGNSE
+comp38697_c0_m.22078      VDYKHLPSNSAIGLGAVNAGQFGTKVDLEASRTLFKDRFSQFDAGVSYGQRFGGPFGNSE
+KAH0813379.1              VDYKHVPSNSAIGLGAVNAGQFGTKVDLEASRTLFKDRFSQFDAGVSYGQRFGGPFGNSE
+                          *****:******************************************************
+
+attacin                   PVFGGFIRGRF
+comp38697_c0_m.22078      PVFGGFIRGRF
+KAH0813379.1              PVFGGFIRGR-
+                          ********** 
+```
+
 # coleoptericins
 
 The coleoptericins are also clustered together. In the Genoscope assembly, there are 3 full-length ORFs and one partial ORF. The purdue assembly has resolved things differently, with a single larger mRNA that seems to encode a 871-aa protein with multiple coleoptericins in there as well as a neighbouring protein (CAH1367450.1 in Genoscope). Don't know which is correct but from our RNAseq data (see figure below) I think it looks like three separate transcripts rather than a giant one. There is some linkage of reads between the genes but I think this is probably because they are so similar. Tenecin 2 seems to CAH1367451.1 and/or CAH1367452.1. Note that the tenecin 2 sequence was never depositied anywhere, as far as I know.
