@@ -32,7 +32,7 @@
 | cecropin      | CAH1373192.1    | 96 aa                  | comp41995_c0 m.54728 | identical to cecropin, missing in purdue assembly                              |
 | (tenecin 3)   | CAH1364178.1    | 96 aa                  | comp39311_c1 m.25826 | identical to tenecin 3                                                         |
 | defensin      | CAH1375101.1    | 84 aa                  | comp40599_c0 | 99% identity (83/84) with tenecin 1                                            |
-| defensin      | defensin        | 72 aa                  |              | missing in genomes and our RNAseq. In all cases tenecin 1 is the closest hit |
+| defensin      | defensin        | 72 aa                  |              | missing in genomes and our RNAseq. In all cases tenecin 1 is the closest hit. not in any databases, so transcribed the aa sequence from Jang et al. 2020 |
 | defensin-like | CAH1378923.1    | 71 aa                  | comp44757_c0 | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
 | thaumatin-like | CAH1379328.1   | 222 aa                 | comp35996_c0 | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
 | thaumatin-like | CAH1373168.1   | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#coverage-of-thaumatins-in-genoscope-assembly)                                                               |
@@ -41,7 +41,7 @@
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. <br/>
 KAHXXXXXXX.X refer to the purdue assembly. <br/>
 compXXXXXX_cX refer to transcript sequences assembled from our RNAseq. <br/>
-m.XXX refer to proteins predicted from the assembled transcripts. <br/>
+m.XXX refer to proteins predicted from the assembled RNAseq transcripts. <br/>
 
 # attacins/tenecin 4
 
@@ -270,6 +270,8 @@ igvtools count -z 5 -w 25 -e 250 allAligned.sorted.out.bam  allAligned.sorted.ou
 ```
 
 # References
+
+Jang HA, Park KB, Kim BB, Ali Mohammadie Kojour M, Bae YM, Baliarsingh S, Lee YS, Han YS, Jo YH. In silico identification and expression analyses of Defensin genes in the mealworm beetle Tenebrio molitor. Entomological Research. 2020 Dec;50(12):575-85.
 
 Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like protein (TmTLP) genes from Tenebrio molitor. Entomological Research. 2016 Nov;46(6):354-9.
 
