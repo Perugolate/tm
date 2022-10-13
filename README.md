@@ -1,8 +1,8 @@
 # Contents
 - [Table 1. AMPs in *Tenebrio molitor*](#table-1-amps-in-tenebrio-molitor)
 - [attacins/tenecin 4](#attacinstenecin-4)
-  - [CAH1377308.1/CAH1377310.1/Attacin 1a](#cah13773081cah13773101attacin-1a)
   - [tenecin 4](#tenecin-4)
+  - [CAH1377308.1/CAH1377310.1/Attacin 1a](#cah13773081cah13773101attacin-1a)
   - [attacin 1b](#attacin-1b)
 - [coleoptericins](#coleoptericins)
   - [coverage of coleoptercins in genoscope assembly](#coverage-of-coleoptercins-in-genoscope-assembly)
