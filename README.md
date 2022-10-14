@@ -18,11 +18,11 @@
 | family        | name            | length protein         | 2014 RNAseq  | notes                                                             |
 |---------------|-----------------|------------------------|--------------|-------------------------------------------------------------------|
 | attacin       | CAH1377308.1    | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377309.1    | 123 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
+| attacin       | CAH1377309.1    | 123 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
 | attacin       | CAH1377310.1    | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377311.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
-| attacin       | CAH1377312.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
-| attacin       | CAH1377313.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
+| attacin       | CAH1377311.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
+| attacin       | CAH1377312.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
+| attacin       | CAH1377313.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
 | attacin       | CAH1370004.1    | 164 aa                 | comp38945_c1 m.23374 | 99% identity (162/164) with attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
 | attacin       | attacin 1b      | 150 aa                 | comp38697_c0 m.22078 | See [below](#attacin-1b) |
 | coleoptericin | CAH1367453.1    | 119 aa                 | comp40251_c0 m.33071 | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
