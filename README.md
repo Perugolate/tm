@@ -10,6 +10,7 @@
   - [coverage of thaumatins in genoscope assembly](#coverage-of-thaumatins-in-genoscope-assembly)
   - [CAH1379328.1](#cah13793281)
 - [RNAseq validation](#rnaseq-validation)
+  - [Download assemblies](#download-assemblies)
   - [alignment](#alignment)
 - [References](#references)
 
@@ -285,9 +286,22 @@ CAH1373168.1      YVITF (truncated)
 
 This is just a reminder for myself of how I aligned the RNAseq data to the genoscope assembly.
 
+## Download assemblies
+
+There is relatively new support on NCBI for generating `curl` commmands for downloading genome projects:
+
+```bash
+# download genoscope genome
+curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v1/genome/accession/GCA_907166875.3/download?include_annotation_type=GENOME_GFF,RNA_FASTA,CDS_FASTA,PROT_FASTA&filename=GCA_907166875.3.zip" -H "Accept: application/zip"
+unzip GCA_907166875.3.zip
+# download purdue genome
+curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v1/genome/accession/GCA_014282415.2/download?include_annotation_type=GENOME_GFF,RNA_FASTA,CDS_FASTA,PROT_FASTA&filename=GCA_014282415.2.zip" -H "Accept: application/zip"
+unzip GCA_014282415.2.zip
+```
+
 ## alignment
 
-Need to use the genome instead of the transcripts. 
+Need to use the genome instead of the transcripts. Note that `STAR` is spliced aligner. This will generate some strange looking splice patterns for genes that are very similar anf close to each other (e.g. CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1 or the coleoptericins).
 
 ```bash
 mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx/
