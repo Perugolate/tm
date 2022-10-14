@@ -15,28 +15,28 @@
 
 # Table 1. AMPs in *Tenebrio molitor*.
 
-| family        | name            | length protein         | 2014 RNAseq  | notes                                                             |
-|---------------|-----------------|------------------------|--------------|-------------------------------------------------------------------|
-| attacin       | CAH1377308.1    | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377309.1    | 123 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
-| attacin       | CAH1377310.1    | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377311.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
-| attacin       | CAH1377312.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
-| attacin       | CAH1377313.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
-| attacin       | CAH1370004.1    | 164 aa                 | comp38945_c1 m.23374 | 99% identity (162/164) with attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
-| attacin       | attacin 1b      | 150 aa                 | comp38697_c0 m.22078 | See [below](#attacin-1b) |
-| coleoptericin | CAH1367453.1    | 119 aa                 | comp40251_c0 m.33071 | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
-| coleoptericin | CAH1367451.1    | 127 aa                 | comp42114_c0 m.56211 | 98% identity (124/127) with coleoptericin B                                    |
-| coleoptericin | CAH1367452.1    | 127 aa                 | comp42114_c0 m.56211 | 98% identity (125/127) with coleoptericin B                                    |
-| coleoptericin | CAH1367454.1    | 134 aa (partial start) | comp39661_c0 m.28138 | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa        |
-| cecropin      | CAH1373192.1    | 96 aa                  | comp41995_c0 m.54728 | identical to cecropin, missing in purdue assembly                              |
-| (tenecin 3)   | CAH1364178.1    | 96 aa                  | comp39311_c1 m.25826 | identical to tenecin 3                                                         |
-| defensin      | CAH1375101.1    | 84 aa                  | comp40599_c0 | 99% identity (83/84) with tenecin 1                                            |
-| defensin      | defensin        | 72 aa                  |              | missing in genomes and our RNAseq. In all cases tenecin 1 is the closest hit. not in any databases, so transcribed the aa sequence from Jang et al. 2020 |
-| defensin-like | CAH1378923.1    | 71 aa                  | comp44757_c0 | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
-| thaumatin-like | CAH1379328.1   | 222 aa                 | comp35996_c0 | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
-| thaumatin-like | CAH1373168.1   | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#coverage-of-thaumatins-in-genoscope-assembly)                                                               |
-| thaumatin‐like | CAH1373167.1   | 187 aa                 | comp140556_c0 | Sits right next to the above. Possibly undescribed.                                     |
+| Family        | Protein name      | Gene name     | protein length        | 2014 RNAseq  | notes                                                             |
+|---------------|-------------------|---------------|------------------------|--------------|-------------------------------------------------------------------|
+| attacin       | CAH1377308.1      | TMOL_7.1463.1 | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
+| attacin       | CAH1377309.1      | TMOL_7.1464.1 | 123 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
+| attacin       | CAH1377310.1      | TMOL_7.1465.1 | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
+| attacin       | CAH1377311.1      | TMOL_7.1466.1 | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
+| attacin       | CAH1377312.1      | TMOL_7.1468.1 | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
+| attacin       | CAH1377313.1      | TMOL_7.1467.1 | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH13773091CAH13773111CAH13773121CAH13773131)                                                                   |
+| attacin       | CAH1370004.1      | TMOL_4.173.1 | 164 aa                 | comp38945_c1 m.23374 | 99% identity (162/164) with attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
+| attacin       | attacin 1b        |  | 150 aa                 | comp38697_c0 m.22078 | See [below](#attacin-1b) |
+| coleoptericin | CAH1367453.1      | TMOL_3.1704.1 | 119 aa                 | comp40251_c0 m.33071 | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
+| coleoptericin | CAH1367451.1      |  TMOL_3.1700.1| 127 aa                 | comp42114_c0 m.56211 | 98% identity (124/127) with coleoptericin B                                    |
+| coleoptericin | CAH1367452.1      | TMOL_3.1703.1 | 127 aa                 | comp42114_c0 m.56211 | 98% identity (125/127) with coleoptericin B                                    |
+| coleoptericin | CAH1367454.1      | TMOL_3.1705.1 | 134 aa (partial start) | comp39661_c0 m.28138 | the cognate protein KAH0816279.1 in the purdue assembly is 164 aa        |
+| cecropin      | CAH1373192.1      | TMOL_1.2590.1 | 96 aa                  | comp41995_c0 m.54728 | identical to cecropin, missing in purdue assembly                              |
+| (tenecin 3)   | CAH1364178.1      | TMOL_2.541.1 | 96 aa                  | comp39311_c1 m.25826 | identical to tenecin 3                                                         |
+| defensin      | CAH1375101.1      | TMOL_6.484.1 | 84 aa                  | comp40599_c0 | 99% identity (83/84) with tenecin 1                                            |
+| defensin      | defensin          |  | 72 aa                  |              | missing in genomes and our RNAseq. In all cases tenecin 1 is the closest hit. not in any databases, so transcribed the aa sequence from Jang et al. 2020 |
+| defensin-like | CAH1378923.1      | TMOL_9.489.1 | 71 aa                  | comp44757_c0 | identical to "defensin-like" from Jang et al. 2020. Seems to be in a cluster of related genes |
+| thaumatin-like | CAH1379328.1     | TMOL_10.8.1 | 222 aa                 | comp35996_c0 | Possibly undescribed thaumatin-like protein but see [below](#cah13793281)      |
+| thaumatin-like | CAH1373168.1     | TMOL_1.2565.1 | 587 aa                 | comp39444_c0, comp40771_c0 | See [below](#coverage-of-thaumatins-in-genoscope-assembly)                                                               |
+| thaumatin‐like | CAH1373167.1     | TMOL_1.2564.1 | 187 aa                 | comp140556_c0 | Sits right next to the above. Possibly undescribed.                                     |
 
 protein names CAHXXXXXXX.X refer to the Genoscope assembly. <br/>
 KAHXXXXXXX.X refer to the purdue assembly. <br/>
@@ -45,11 +45,13 @@ m.XXX refer to proteins predicted from the assembled RNAseq transcripts. <br/>
 
 # attacins/tenecin 4
 
-There seem to be 7 attacin genes in total. CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1 are very similar to each other and are hard to distinguish ([see below](#cah13773081cah13773101attacin-1a)). The same is true of CAH1377308.1 and CAH1377310.1 ([see below](#cah13773081cah13773101attacin-1a). These six genes (CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are clustered together on scaffold [CAJRHG030000008.1](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?cfg=NCID_1_54628939_130.14.18.             2      128_9146_1665395600_1361713531).
+There seem to be 8 attacin genes in total. CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1 are very similar to each other and are hard to distinguish ([see below](#cah13773081cah13773101attacin-1a)). The same is true of CAH1377308.1 and CAH1377310.1 ([see below](#cah13773081cah13773101attacin-1a)). These six genes (CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are clustered together on scaffold [CAJRHG030000008.1](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?cfg=NCID_1_54628939_130.14.18.             2      128_9146_1665395600_1361713531).
 
 ![ten4gb](https://github.com/Perugolate/tm/blob/main/CAJRHG030000008.1%5B13496280..13530935%5D.png)
 
-There is evidence for a seventh attacin that is missing from the genoscope assembly but is suppported by our RNAseq data (Johnston et al. 2014) and by Jo et al. 2018 and also the purdue assembly ([see below](#attacin-1b)).
+A seventh attacin is found outside of this cluster on scaffold CAJRHG030000004.1.
+
+There is evidence for a eighth attacin that is missing from the genoscope assembly but is suppported by our RNAseq data (Johnston et al. 2014) and by Jo et al. 2018 and also the purdue assembly ([see below](#attacin-1b)).
 
 ## tenecin 4/CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1
 
