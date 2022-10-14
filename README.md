@@ -42,16 +42,17 @@ protein names CAHXXXXXXX.X refer to the Genoscope assembly. <br/>
 KAHXXXXXXX.X refer to the purdue assembly. <br/>
 compXXXXXX_cX refer to transcript sequences assembled from our RNAseq. <br/>
 m.XXX refer to proteins predicted from the assembled RNAseq transcripts. <br/>
+TMOL_X.XXXX refers to the gene name (locus tag) in the genoscope assembly. 
 
 # attacins/tenecin 4
 
-There seem to be 8 attacin genes in total. CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1 are very similar to each other and are hard to distinguish ([see below](#cah13773081cah13773101attacin-1a)). The same is true of CAH1377308.1 and CAH1377310.1 ([see below](#cah13773081cah13773101attacin-1a)). These six genes (CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are clustered together on scaffold [CAJRHG030000008.1](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?cfg=NCID_1_54628939_130.14.18.             2      128_9146_1665395600_1361713531).
+There seems to be 8 attacin genes in total. CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1 are very similar to each other and are hard to distinguish ([see below](#cah13773081cah13773101attacin-1a)). The same is true of CAH1377308.1 and CAH1377310.1 ([see below](#cah13773081cah13773101attacin-1a)). These six genes (CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are clustered together on scaffold CAJRHG030000008.1:
 
 ![ten4gb](https://github.com/Perugolate/tm/blob/main/CAJRHG030000008.1%5B13496280..13530935%5D.png)
 
 A seventh attacin is found outside of this cluster on scaffold CAJRHG030000004.1.
 
-There is evidence for a eighth attacin that is missing from the genoscope assembly but is suppported by our RNAseq data (Johnston et al. 2014) and by Jo et al. 2018 and also the purdue assembly ([see below](#attacin-1b)).
+There is evidence for an eighth attacin that is missing from the genoscope assembly but is suppported by our RNAseq data (Johnston et al. 2014) and by Jo et al. 2018 and also purdue assembly ([see below](#attacin-1b)).
 
 ## tenecin 4/CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1
 
@@ -81,7 +82,7 @@ CAH1377312.1      KYNLYRNGPFHADVSGKYDRTYGGASSNPSFSTHLTGTVDF
                   ******* *****:*********************** ***
 ```
 
-The nucleotide sequence is similar enough that the RNAi and qPCR probably covers the all but note the difference in the 5-prime end of the CAH1377309.1 cds.
+The nucleotide sequence is similar enough that the RNAi and qPCR probably covers the all but note the difference in the 5-prime end of the CAH1377309.1 cds:
 
 ```
 CLUSTAL multiple sequence alignment by MUSCLE (3.8)
@@ -142,7 +143,6 @@ TMOL_7.1468.1_CAH1377312.1      TTTTAA
                                 **** *
 ```
 
-
 ![attacins](https://github.com/Perugolate/tm/blob/main/20221013_attacins.jpg)
 
 There is decent read support for attacins CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, and CAH1377313.1 in our RNAseq data. Their similarity complicates the interpretation though. Would probably have to look in more detail at the UTRs and upstream to really tell them apart in the RNAseq.
@@ -167,7 +167,7 @@ Attacin-1a        DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGRF
                   **********************************
 ```
 
-As for CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1, they are conserved at the nucleotide-level so chances are that the knockdowns and qPCR cover both genes:
+Similar to the case of CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1, alignments show that CAH1377308.1 and CAH1377310.1 are conserved at the nucleotide-level so chances are that the knockdowns and qPCR cover both genes:
 
 ```
 lcl|CAJRHG030000008.1_cds_CAH137      ATGCAGAAACAACTCATTGTCTCAATTCTCGTATTCACCTCTTTGGCGTTTGCCACGGCG
@@ -283,6 +283,8 @@ CAH1373168.1      YVITF (truncated)
 
 # RNAseq validation
 
+This is just a reminder for myself of how I aligned the RNAseq data to the genoscope assembly.
+
 ## alignment
 
 Need to use the genome instead of the transcripts. 
@@ -324,8 +326,10 @@ igvtools count -z 5 -w 25 -e 250 allAligned.sorted.out.bam  allAligned.sorted.ou
 
 Jang HA, Park KB, Kim BB, Ali Mohammadie Kojour M, Bae YM, Baliarsingh S, Lee YS, Han YS, Jo YH. In silico identification and expression analyses of Defensin genes in the mealworm beetle Tenebrio molitor. Entomological Research. 2020 Dec;50(12):575-85.
 
+Jo YH, Park S, Park KB, Noh MY, Cho JH, Ko HJ, Kim CE, Patnaik BB, Kim J, Won R, Bang IS. In silico identification, characterization and expression analysis of attacin gene family in response to bacterial and fungal pathogens in Tenebrio molitor. Entomological research. 2018 Jan;48(1):45-54.
+
+Johnston PR, Makarova O, Rolff J. Inducible defenses stay up late: temporal patterns of immune gene expression in Tenebrio molitor. G3: Genes, Genomes, Genetics. 2014 Jun 1;4(6):947-55.
 Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like protein (TmTLP) genes from Tenebrio molitor. Entomological Research. 2016 Nov;46(6):354-9.
 
 Kim DH, Noh MY, Park KB, Jo YH. Expression profiles of two thaumatin‐like protein (TmTLP) genes in responses to various micro‐organisms from Tenebrio molitor. Entomological Research. 2017 Jan;47(1):35-40.
 
-Jo YH, Park S, Park KB, Noh MY, Cho JH, Ko HJ, Kim CE, Patnaik BB, Kim J, Won R, Bang IS. In silico identification, characterization and expression analysis of attacin gene family in response to bacterial and fungal pathogens in Tenebrio molitor. Entomological research. 2018 Jan;48(1):45-54.
