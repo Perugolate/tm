@@ -1,7 +1,7 @@
 # Contents
 - [Table 1. AMPs in *Tenebrio molitor*](#table-1-amps-in-tenebrio-molitor)
 - [attacins/tenecin 4](#attacinstenecin-4)
-  - [tenecin 4](#tenecin-4)
+  - [tenecin 4/CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)
   - [CAH1377308.1/CAH1377310.1/Attacin 1a](#cah13773081cah13773101attacin-1a)
   - [attacin 1b](#attacin-1b)
 - [coleoptericins](#coleoptericins)
@@ -18,11 +18,11 @@
 | family        | name            | length protein         | 2014 RNAseq  | notes                                                             |
 |---------------|-----------------|------------------------|--------------|-------------------------------------------------------------------|
 | attacin       | CAH1377308.1    | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377309.1    | 123 aa                 | comp44607_c0 | See [below](#tenecin-4)                                                                   |
+| attacin       | CAH1377309.1    | 123 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
 | attacin       | CAH1377310.1    | 154 aa                 | comp42299_c0 | 98% identity (151/154) with attacin-1a, see [below](#cah13773081cah13773101attacin-1a)                           |
-| attacin       | CAH1377311.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4)                                                                   |
-| attacin       | CAH1377312.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4)                                                                   |
-| attacin       | CAH1377313.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4)                                                                   |
+| attacin       | CAH1377311.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
+| attacin       | CAH1377312.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
+| attacin       | CAH1377313.1    | 161 aa                 | comp44607_c0 | See [below](#tenecin-4CAH1377309.1CAH1377311.1CAH1377312.1CAH1377313.1)                                                                   |
 | attacin       | CAH1370004.1    | 164 aa                 | comp38945_c1 m.23374 | 99% identity (162/164) with attacin-2, jo et al. 2018, in 2014 we called this attacin 1 |
 | attacin       | attacin 1b      | 150 aa                 | comp38697_c0 m.22078 | See [below](#attacin-1b) |
 | coleoptericin | CAH1367453.1    | 119 aa                 | comp40251_c0 m.33071 | 98% identity (117/119) with coleoptericin A, see [below](#coleoptericins)      |
@@ -45,11 +45,16 @@ m.XXX refer to proteins predicted from the assembled RNAseq transcripts. <br/>
 
 # attacins/tenecin 4
 
-## tenecin 4
-
-The amino acid sequence of Tenecin 4 from Chae et al does not retrieve an identical amino acid sequence from either genome project. There are 6 genes with some similarity to tenecin 4 that are clustered together on scaffold [CAJRHG030000008.1](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?cfg=NCID_1_54628939_130.14.18.128_9146_1665395600_1361713531). These are consistent with our RNAseq data. These four genes (CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are basically tenecin 4.
+There seem to be 7 attacin genes in total. CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1 are very similar to each other and are hard to distinguish ([see below](#cah13773081cah13773101attacin-1a)). The same is true of CAH1377308.1 and CAH1377310.1 ([see below](#cah13773081cah13773101attacin-1a). These six genes (CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are clustered together on scaffold [CAJRHG030000008.1](https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?cfg=NCID_1_54628939_130.14.18.             2      128_9146_1665395600_1361713531).
 
 ![ten4gb](https://github.com/Perugolate/tm/blob/main/CAJRHG030000008.1%5B13496280..13530935%5D.png)
+
+There is evidence for a seventh attacin that is missing from the genoscope assembly but is suppported by our RNAseq data (Johnston et al. 2014) and by Jo et al. 2018 and also the purdue assembly ([see below](#attacin-1b)).
+
+## tenecin 4/CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1
+
+The amino acid sequence of Tenecin 4 from Chae et al does not retrieve an identical amino acid sequence from either genome project. These four genes (CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are basically tenecin 4.
+
 
 ```
 Tenecin 4         MLKAVQFALSCTILSSAAPT------------------ASSETKWDIEDPGKLKIQHSGT
@@ -74,26 +79,71 @@ CAH1377312.1      KYNLYRNGPFHADVSGKYDRTYGGASSNPSFSTHLTGTVDF
                   ******* *****:*********************** ***
 ```
 
-```
-Tenecin 4         ----------MLKAVQFALSCTILSSAAPT-ASSETKWDIEDPGKLKIQHSGTIFNNGGH
-CAH1377308.1      MQKQLIVSILVFTSLAFATAENKIPPPKPEDGQRETKWKVEDPGIINLQHREKLYESGPH
-CAH1377310.1      MQKQLIVSILAFASLAFAMADNKIPPPKPKDGQRETKWKVEDPGIINLQHREKLYESGPH
-                             : :: ** : . :... *  .. ****.:**** :::**  .:::.* *
+The nucleotide sequence is similar enough that the RNAi and qPCR probably covers the all but note the difference in the 5-prime end of the CAH1377309.1 cds.
 
-Tenecin 4         KLDGEAYGSKSLVDRRDPAVFGGKLDYNHNSG-SSLSVSAQHKEHRGTRVGVEGKYNLYR
-CAH1377308.1      RFDATAAYKKNFVDKMDPARTIARVDYKYLPGDTSLGVQAENIQRFGTVLSAEATRNLYK
-CAH1377310.1      RFDATAAYKKNFVDKMDPARTIARVDYKYLPGDTSLGLQAENIQRFGTVLSAEATRNLYK
-                  .:*. *  .*.:**. ***   ..:**:: .* :**.:.*:: :. ** :..*.. ***.
-
-Tenecin 4         NGPFHADVSGKYDRTYGG-ASSNPSFSTHLTGTVDF
-CAH1377308.1      DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGR--F
-CAH1377310.1      DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGR--F
-                  :     **. :*..*:.  . *:* *. .: *   *
 ```
+CLUSTAL multiple sequence alignment by MUSCLE (3.8)
+
+
+TMOL_7.1464.1_CAH1377309.1      ------------------------------------------------------------
+TMOL_7.1467.1_CAH1377313.1      ATGCAAAAAGTACTAATTGTTGCATCTCTCTGCTTGGTTGTGGCCTTGGCCTTGCCTTAT
+TMOL_7.1466.1_CAH1377311.1      ATGCAAAAAGTACTAATTGTTGCATCTCTCTGCTTGGCTGTGGCCTTGGCCTTGCCTTAT
+TMOL_7.1468.1_CAH1377312.1      ATGCAAAAAGTACTAATTGTTGCATCTCTCTGCTTGGCTGTGGCCTTGGCCTCGCCTTAT
+                                                                                            
+
+TMOL_7.1464.1_CAH1377309.1      ---------------------------------------------ATGTTT---------
+TMOL_7.1467.1_CAH1377313.1      GATCTCGTCGAAGATGAGCAAGGTCAACATTATTATCTAGTACCGGTGTCTCGTGTAAGG
+TMOL_7.1466.1_CAH1377311.1      GATCTCGTCGAAGATGAGCAAGGTCAACATTATTATCTAGTACCGGTGTCTCGTGTAAGA
+TMOL_7.1468.1_CAH1377312.1      GATCTCGTCGAAGATGAGCAAGGTCAACATTATTATCTAGTACCGGTGTCTCGTGTAAGG
+                                                                              *** *         
+
+TMOL_7.1464.1_CAH1377309.1      AGGGAAACCGAATGGAACATTCAAGATCCAGGAAAGTTGAAAATTCAACACAGCGGTACC
+TMOL_7.1467.1_CAH1377313.1      AGGGAAACCAAATGGGACATTGAAAACCCAGGAAAGTTGAAAATTCAACACAGTGGTACC
+TMOL_7.1466.1_CAH1377311.1      AGGGAAACCAAATGGGACATTGAAGATCCAGGAAAGTTGAAAATTCAACACAGTGGTACC
+TMOL_7.1468.1_CAH1377312.1      CGGGAAACCAAATGGGACATTGAAGATCCAGGAAAGTTGAAAATTCAACACAGTGGTACC
+                                 ******** ***** ***** ** * ************************** ******
+
+TMOL_7.1464.1_CAH1377309.1      ATTTTCAACAACGGCGACCACAAATTAAAAGGTGAAGCTTATGGTTCTAAGAGTTTGGTC
+TMOL_7.1467.1_CAH1377313.1      ATTTTCAACAACGGCGACCACAAATTAAAAGGTGAAGCTTATGGTTCTAAGAGTTTGGTT
+TMOL_7.1466.1_CAH1377311.1      ATTTTCAACAACGGCGACCACAAATTAGATGGGGAAGCTTATGGTTCTAAGAGTTTGGTC
+TMOL_7.1468.1_CAH1377312.1      ATTTTCAACAACGGCGACCACAAATTAGATGGGGAAGCTTATGGTTCAAAGAGTTTGGTT
+                                *************************** * ** ************** *********** 
+
+TMOL_7.1464.1_CAH1377309.1      GACAGACGTGATTCCGCAGTCTTCGGTGGGAAGCTGGATTATAATCACAACTCTGGATCT
+TMOL_7.1467.1_CAH1377313.1      GACAGACGTGATCCCGCAGTCTTCGGTGGGAAGCTGGATTACAATCACAACTCTGGATCA
+TMOL_7.1466.1_CAH1377311.1      GACAGACGTGATCCTGCGGTCTTCGGTGGGAAACTGGATTACAATCACAACTCTGGATCA
+TMOL_7.1468.1_CAH1377312.1      GACAGACGTGATCCTGCGGTCTTCGGTGGGAAGCTGGATTACAATCACAACTCTGGATCC
+                                ************ * ** ************** ******** ***************** 
+
+TMOL_7.1464.1_CAH1377309.1      GGTCTTAGTGTGTCAGCTCTACATAAGGAACACCGTGGTACTAGAGTTGGAGTCGAAGGG
+TMOL_7.1467.1_CAH1377313.1      AGTCTGAGTGTGTCAGCTCAACATAAGGAACACCGTGGTACTAGAGTTGGAGTTGAAGGA
+TMOL_7.1466.1_CAH1377311.1      AGTTTGAGTGTGTCAGCTCAACATAAGGAACACCGTGGTACCAGAGTTGGAGTTGAAGGA
+TMOL_7.1468.1_CAH1377312.1      AGTTTGAGTGTGTCAGCTCAACATAAGGAACACCGTGGTACTAGAGTTGGAGTTGAAGGG
+                                 ** * ************* ********************* *********** ***** 
+
+TMOL_7.1464.1_CAH1377309.1      AAATACAATCTGTACAGGAATGTCCCTTTCCATGCAGATATTTCTGGCAAATACGATAGA
+TMOL_7.1467.1_CAH1377313.1      AAATACAATCTGTACAGGAATGGACCTTTCCATGCAGATGTTTCTGGCAAATACGATAGA
+TMOL_7.1466.1_CAH1377311.1      AAATACAATCTGTACAGGAATGGACCTTTCCATGCAGATGTTTCTGGCAAATATGATAGA
+TMOL_7.1468.1_CAH1377312.1      AAATATAATCTGTACAGGAATGGACCTTTCCATGCAGATGTTTCTGGAAAATACGACAGA
+                                ***** ****************  *************** ******* ***** ** ***
+
+TMOL_7.1464.1_CAH1377309.1      ACGTATGGTGGTGCATCGTCCAATCCGTCTTTCAGTACTCATCTAACCGGAAGAGTAGAT
+TMOL_7.1467.1_CAH1377313.1      ACGTATGGTGGTGCATCGTCCAATCCGTCTTTCAGTACTCATCTAACCGGAACTGTAGAT
+TMOL_7.1466.1_CAH1377311.1      ACGTATGGTGGTGCATCGTCCAATCCGTCTTTCAGTACTCACCTCACAGGAACAGTAGAT
+TMOL_7.1468.1_CAH1377312.1      ACGTATGGTGGTGCATCGTCCAATCCGTCTTTCAGTACTCACCTCACAGGAACAGTAGAT
+                                ***************************************** ** ** ****  ******
+
+TMOL_7.1464.1_CAH1377309.1      TTTTGA
+TMOL_7.1467.1_CAH1377313.1      TTTTAA
+TMOL_7.1466.1_CAH1377311.1      TTTTAA
+TMOL_7.1468.1_CAH1377312.1      TTTTAA
+                                **** *
+```
+
 
 ![attacins](https://github.com/Perugolate/tm/blob/main/20221013_attacins.jpg)
 
-There is decent read support for attacins CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, and CAH1377313.1 in our RNAseq data.
+There is decent read support for attacins CAH1377308.1, CAH1377309.1, CAH1377310.1, CAH1377311.1, CAH1377312.1, and CAH1377313.1 in our RNAseq data. Their similarity complicates the interpretation though. Would probably have to look in more detail at the UTRs and upstream to really tell them apart in the RNAseq.
 
 ## CAH1377308.1/CAH1377310.1/Attacin 1a
 Note that CAH1377308.1 and CAH1377310.1 are both 98% identical to Attacin 1a (Jo et al. 2018), but they are not identical to each other:
@@ -115,7 +165,7 @@ Attacin-1a        DRKSSLDVGVNYGQTFSPFVRSEPFFGGFVRGRF
                   **********************************
 ```
 
-They are conserved at the nucleotide-level, so chances are that the knockdowns and qPCR cover both genes:
+As for CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1, they are conserved at the nucleotide-level so chances are that the knockdowns and qPCR cover both genes:
 
 ```
 lcl|CAJRHG030000008.1_cds_CAH137      ATGCAGAAACAACTCATTGTCTCAATTCTCGTATTCACCTCTTTGGCGTTTGCCACGGCG
@@ -150,7 +200,6 @@ lcl|CAJRHG030000008.1_cds_CAH137      AGAAGCGAACCTTTCTTTGGAGGATTCGTCAGAGGAAGATTC
 lcl|CAJRHG030000008.1_cds_CAH137      AGAAGCGAACCTTTCTTTGGTGGCTTTGTCAGAGGAAGATTTTAA
                                       ******************** ** ** ************** ***
 ```
-
 
 ## attacin 1b
 
