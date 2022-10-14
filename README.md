@@ -301,7 +301,7 @@ unzip GCA_014282415.2.zip
 
 ## alignment
 
-Need to use the genome instead of the transcripts. Note that `STAR` is spliced aligner. This will generate some strange looking splice patterns for genes that are very similar anf close to each other (e.g. CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1 or the coleoptericins).
+Need to use the genome instead of the transcripts. Note that `STAR` is a spliced aligner. This will generate some strange looking splice patterns for genes that are very similar and close to each other (e.g. CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1 or the coleoptericins).
 
 ```bash
 mkdir /srv/public/users/paul/20221007_tm/genoscope/data/GCA_907166875.3/star_idx/
@@ -338,6 +338,8 @@ igvtools count -z 5 -w 25 -e 250 allAligned.sorted.out.bam  allAligned.sorted.ou
 
 # References
 
+Chae JH, Kurokawa K, So YI, Hwang HO, Kim MS, Park JW, Jo YH, Lee YS, Lee BL. Purification and characterization of tenecin 4, a new anti-Gram-negative bacterial peptide, from the beetle Tenebrio molitor. Developmental & Comparative Immunology. 2012 Mar 1;36(3):540-6.
+
 Jang HA, Park KB, Kim BB, Ali Mohammadie Kojour M, Bae YM, Baliarsingh S, Lee YS, Han YS, Jo YH. In silico identification and expression analyses of Defensin genes in the mealworm beetle Tenebrio molitor. Entomological Research. 2020 Dec;50(12):575-85.
 
 Jo YH, Park S, Park KB, Noh MY, Cho JH, Ko HJ, Kim CE, Patnaik BB, Kim J, Won R, Bang IS. In silico identification, characterization and expression analysis of attacin gene family in response to bacterial and fungal pathogens in Tenebrio molitor. Entomological research. 2018 Jan;48(1):45-54.
@@ -347,3 +349,4 @@ Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like prot
 
 Kim DH, Noh MY, Park KB, Jo YH. Expression profiles of two thaumatin‐like protein (TmTLP) genes in responses to various micro‐organisms from Tenebrio molitor. Entomological Research. 2017 Jan;47(1):35-40.
 
+Noh MY, Jo YH. Identification and sequence analysis of two thaumatin‐like protein (TmTLP) genes from Tenebrio molitor. Entomological Research. 2016 Nov;46(6):354-9.
