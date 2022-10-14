@@ -57,7 +57,7 @@ There is evidence for an eighth attacin that is missing from the genoscope assem
 
 ## tenecin 4/CAH1377309.1/CAH1377311.1/CAH1377312.1/CAH1377313.1
 
-The amino acid sequence of Tenecin 4 from Chae et al does not retrieve an identical amino acid sequence from either genome project. These four genes (CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are basically tenecin 4.
+The amino acid sequence of Tenecin 4 from Chae et al. 2012 does not retrieve an identical amino acid sequence from either genome project. These four genes (CAH1377309.1, CAH1377311.1, CAH1377312.1, CAH1377313.1) are basically tenecin 4.
 
 
 ```
